@@ -1,0 +1,156 @@
+/* Bordered form */
+form {
+  border: 60px solid white;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container input[type=text], input[type=password] {
+  margin-bottom: 20px;
+}
+
+.modal .modal-content .employee {
+  text-align: center;
+}
+
+.employee p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: -10px;
+}
+
+/* Set a style for all buttons */
+button, .btn {
+  background-color: rgb(43, 92, 124);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  background: black;
+  font-weight: bolder;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding-bottom: 35px;
+  padding-top: 10px;
+}
+
+ input {
+  border-radius: 20px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+}
+
+.create-btn {
+  float: left;
+  width: 140px;
+  height: 40px;
+  margin-top: -10px;
+  background-color: rgb(180, 124, 21);
+}
+
+.create-btn:hover {
+  background-color: darkred;
+  font-weight: bolder;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+
+
+/*********************  Customer Page **************************/
+
+.create-customer p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*********************  homepage Page **************************/
+
+/* Allow items within Div to be centered and on same line */
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+/* Buttons to login pages */
+.items{
+  margin: 50px;
+  height: 200px;
+  width: 200px;
+  background-color: #005ce6;
+  color: white;
+  border: 2px solid black;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.items:hover {opacity: 1}
+
+/* Do not want links to have underlines so set text-dectoration to none */
+a {
+	float:left;
+  text-decoration: none;
+}
+
+/*********************  UpdateCustomer Page **************************/
+
+.searchnav{
+  height: 100px;
+  width: 300px;
+  margin: 60px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#displaycustomer{
+  text-align: center;
+  visibility: hidden;
+}
+

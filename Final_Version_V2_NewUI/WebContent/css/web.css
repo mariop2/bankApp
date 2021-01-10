@@ -1,0 +1,214 @@
+
+
+body {
+  font-family:Century Gothic;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+ font-family: Century Gothic;
+font-style: bold;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherite ;
+  font-family: Century Gothic;
+font-style: bold;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+color: white;
+  position: absolute;
+  background-color:  rgb(43, 92, 124);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /*z-index: 1;*/
+ text-align: center;
+}
+
+.dropdown-content a {
+  float: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*  {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(43, 92, 124);
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+/* Add padding to containers */
+
+
+/* Full-width input fields 
+input[type=text], input[type=password] {
+  width: 5%;
+  padding: 20px;
+  margin: 2px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+}*/
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=number]{
+width: 20%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.header{
+  background-color: rgb(43, 92, 124);
+  color: rgb(43, 92, 124);
+  padding: 10px;
+  width: 100%;
+  margin: auto; 
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+button, .btn {
+  background-color: rgb(43, 92, 124);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.button2 {
+  background-color: rgb(43, 92, 124);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  border-radius: 20px;
+}
+
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: blue;
+  text-align: center;
+}
+
+.form {
+  margin: auto;
+  width: 20%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+  margin: auto;
+  width: 100%;
+  
+}
+column {
+  float: left;
+  width: 33.33%;
+}
+
+.column h2{
+	color: black;
+}
+.column p{
+	color: black;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
